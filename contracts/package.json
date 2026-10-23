@@ -1,0 +1,14 @@
+{
+  "name": "proof-gated-escrow-contracts",
+  "version": "0.1.0",
+  "description": "Solidity escrow for the proof-gated escrow marketplace.",
+  "license": "MIT",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  }
+}

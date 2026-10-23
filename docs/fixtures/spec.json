@@ -1,0 +1,10 @@
+{
+  "id": "job-1001",
+  "title": "Resize and optimize hero image",
+  "payout_wei": "500000000000000000",
+  "criteria": [
+    { "kind": "numeric_at_least", "id": "min-width", "pointer": "/image/width", "min": 1920.0 },
+    { "kind": "field_equals", "id": "format", "pointer": "/image/format", "expected": "webp" },
+    { "kind": "numeric_at_most", "id": "max-bytes", "pointer": "/image/bytes", "max": 300000.0 }
+  ]
+}

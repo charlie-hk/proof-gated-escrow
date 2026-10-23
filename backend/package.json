@@ -1,0 +1,16 @@
+{
+  "name": "proof-gated-escrow-backend",
+  "version": "0.1.0",
+  "description": "Node.js backend wiring the Rust verifier to the Solidity escrow workflow.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ethers": "^6.13.2"
+  }
+}

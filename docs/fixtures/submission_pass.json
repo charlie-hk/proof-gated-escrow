@@ -1,0 +1,5 @@
+{
+  "job_id": "job-1001",
+  "artifacts": [{ "path": "out/hero.webp", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" }],
+  "metadata": { "image": { "width": 2560, "format": "webp", "bytes": 240331 } }
+}
