@@ -1,3 +1,5 @@
+![proof-gated-escrow](assets/cover.png)
+
 # Proof-Gated Escrow
 
 Deterministic job-result verification for an escrow marketplace. A customer funds
